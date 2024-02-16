@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    padding: 15px;
+}
+
+p{
+    color: yellow;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+::placeholder{
+    font-weight: bolder;
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #f12711, #f5af19);
+    color: white;
+    padding: 15px;
+    width: 500px;
+    text-align: center;
+    border-radius: 0px 100px;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.input-container button {
+    background-color: #fbff28;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+
+ul {
+    width: 520px;
+    list-style-type: none;
+}
+
+ul li {
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 6px 12px;
+    background-color: #f7a604;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+ul li p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+ul li button {
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+}
